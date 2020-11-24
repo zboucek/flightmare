@@ -27,44 +27,44 @@
     :maxdepth: 2
     :caption: Building Flightmare Binary
 
-    Standalone build <building_flightmare_binary/standalone>
+    Standalone Build <building_flightmare_binary/standalone>
     F.A.Q. <building_flightmare_binary/faq>
 
 .. toctree::
     :hidden:
     :maxdepth: 2
-    :caption: First steps
+    :caption: First Steps
 
     Core Concepts <first_steps/core_concepts>
     Server & Client <first_steps/server_and_client>
     Quadrotor & Objects <first_steps/quad_and_objects>
     Environments & Navigation <first_steps/envs_and_navigation>
     Sensors & Data <first_steps/sensors_and_data>
-    PointCloud <first_steps/pointcloud>
+    Point Cloud <first_steps/pointcloud>
     F.A.Q. <first_steps/faq>
 
 .. toctree::
     :hidden:
     :maxdepth: 2
-    :caption: Advanced steps
+    :caption: Advanced Steps
 
-    Advanced concepts <advanced_steps/advanced_concepts>
-    Motion Planning <advanced_steps/motion_planning>
+    Advanced Concepts <advanced_steps/advanced_concepts>
 
-
-.. toctree::
-    :hidden:
-    :maxdepth: 2
-    :caption: Tutorial - General
-
-    Pilot <tutorials_general/pilot>
-    Navigation <tutorials_general/racing>
-    Retrieve data <tutorials_general/camera>
 
 .. toctree::
     :hidden:
     :maxdepth: 2
-    :caption: Tutorial - Assets
+    :caption: Tutorial - ROS
+
+    Pilot <tutorials_ros/pilot>
+    Navigation <tutorials_ros/racing>
+    Retrieve Data <tutorials_ros/camera>
+    Motion Planning <tutorials_ros/motion_planning>
+
+.. toctree::
+    :hidden:
+    :maxdepth: 2
+    :caption: Tutorial - Python
 
 
 .. toctree::
@@ -77,9 +77,9 @@
     :maxdepth: 2
     :caption: C++ References
     
-    Quadrotor references <cpp_references/quadrotor>
-    Camera references <cpp_references/camera>
-    Gate references <cpp_references/gate>
+    Quadrotor References <cpp_references/quadrotor>
+    Camera References <cpp_references/camera>
+    Gate References <cpp_references/gate>
     Quadrotor Environment <cpp_references/quadrotor_env>
 
 .. toctree::

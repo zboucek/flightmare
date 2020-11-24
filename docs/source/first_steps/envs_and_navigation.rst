@@ -225,7 +225,7 @@ instead of using the specific ID.
 Navigating through waypoints
 ----------------------------
 
-.. include:: ../tutorials_general/racing.rst
+.. include:: ../tutorials_ros/racing.rst
   :start-after: ============================
   :end-before: Here the full code example
 
@@ -238,7 +238,7 @@ Here the full code example
    <details>
    <summary>racing.hpp</summary>
 
-.. include:: ../tutorials_general/racing.hpp
+.. include:: ../tutorials_ros/racing.hpp
   :code: C++
 
 .. raw:: html
@@ -250,7 +250,7 @@ Here the full code example
    <details>
    <summary>racing.cpp</summary>
 
-.. include:: ../tutorials_general/racing.cpp
+.. include:: ../tutorials_ros/racing.cpp
   :code: C++
 
 .. raw:: html
