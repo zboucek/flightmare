@@ -71,6 +71,10 @@
     :hidden:
     :maxdepth: 2
     :caption: Tutorial - Developers
+    
+    Make a Release <tutorials_developers/make_release>
+    Generate Detailed Colliders <tutorials_developers/detailed_colliders>
+    Add New Objects <tutorials_developers/add_new_objects>
 
 .. toctree::
     :hidden:
@@ -93,5 +97,10 @@
     :hidden:
     :maxdepth: 2
     :caption: Contribution
+
+    Contribution Guidelines <contribution/contribution_guidelines>
+    Code of Conduct <contribution/code_of_conduct>
+    Coding Standard <contribution/coding_standard>
+    Documentation Standard <contribution/documentation_standard>
 
 

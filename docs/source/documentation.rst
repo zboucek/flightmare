@@ -56,9 +56,9 @@ Tutorials — Developers
 ----------------------
 
 | [Todo] Create a sensor — Develop a new sensor to be used in Flightmare.
-| [Todo] Make a release — For developers who want to publish a release.
-| [Todo] Generate detailed colliders — Create detailed colliders for meshes.
-| [Todo] Add new objects — Import additional props into Flightmare.
+| :ref:`Make a release <make-release>` — For developers who want to publish a release.
+| :ref:`Generate detailed colliders <detailed-colliders>` — Create detailed colliders for meshes.
+| :ref:`Add new objects <add-new-objects>` — Import additional props into Flightmare.
 
 C++ References
 --------------
@@ -78,7 +78,7 @@ Python References
 Contributing
 ------------
 
-| [Todo] Contribution Guidelines — The different ways to contribute to Flightmare.
-| [Todo] Code of Conduct — Standard rights and duties for contributors.
-| [Todo] Coding Standard — Guidelines to write proper code.
-| [Todo] Documentation Standard — Guidelines to write proper documentation.
+| :ref:`Contribution Guidelines <contribution-guidelines>` — The different ways to contribute to Flightmare.
+| :ref:`Code of Conduct <code-of-conduct>` — Standard rights and duties for contributors.
+| :ref:`Coding Standard <coding-standard>` — Guidelines to write proper code.
+| :ref:`Documentation Standard <documentation-standard>` — Guidelines to write proper documentation.

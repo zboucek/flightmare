@@ -146,3 +146,5 @@ This project is inspired by `FlightGoggles <https://github.com/mit-fast/FlightGo
 The `Image Synthesis for Machine Learning <https://bitbucket.org/Unity-Technologies/ml-imagesynthesis/src/master/>`_ from Unity is a core element of Flightmare's image post-processing.
 
 The demo scene Industrial, which we added in the repository, was created by Dmitrii Kutsenko and is freely available in the asset store. The original asset can be found `here <https://assetstore.unity.com/packages/3d/environments/industrial/rpg-fps-game-assets-for-pc-mobile-industrial-set-v2-0-86679>`_.
+
+The documentation is inspired by the `documentation of CARLA simulator <https://carla.readthedocs.io/en/latest/>`_.
