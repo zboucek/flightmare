@@ -1,6 +1,6 @@
 .. _tut-racing:
 
-Navigation through waypoints
+Navigation through Waypoints
 ============================
 
 In this section, we show how to use `rpg_quadrotor_control <https://github.com/uzh-rpg/rpg_quadrotor_control>`_ with Flightmare to navigate through waypoints.
@@ -8,7 +8,7 @@ In this section, we show how to use `rpg_quadrotor_control <https://github.com/u
 Trajectory
 ^^^^^^^^^^
 
-Generate trajectory
+Generate Trajectory
 """""""""""""""""""
 
 .. code-block:: C++
@@ -36,7 +36,7 @@ Generate trajectory
                                         20.0, 20.0, 6.0);
 
 
-Get point from trajectory
+Get Point from Trajectory
 """""""""""""""""""""""""
 
 .. code-block:: C++
@@ -67,7 +67,7 @@ Get point from trajectory
   }
 
 
-Run example
+Run Example
 -----------
 
 .. code-block:: bash
@@ -78,18 +78,8 @@ Run example
 
 .. highlight:: C++ 
 
-Here the full code example
+Here the full Code Example
 --------------------------
-
-Header
-^^^^^^
-
-.. include:: racing.hpp
-  :code: C++
-
-
-Main
-^^^^
 
 .. include:: racing.cpp
   :code: C++

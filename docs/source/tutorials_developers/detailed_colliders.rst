@@ -14,7 +14,7 @@ Mesh Colliders
 The Mesh Collider takes a Mesh Asset and builds its Collider based on that Mesh.
 It is more accurate for collision detection than using primitives for complicated Meshes. 
 
-More details can be found `here <https://docs.unity3d.com/2020.1/Documentation/Manual/class-MeshCollider.html>`_.
+More details can be found `here in the Mesh Collider manual <https://docs.unity3d.com/2020.1/Documentation/Manual/class-MeshCollider.html>`_.
 
 ..warning:: There are some limitations to Mesh Colliders.
 

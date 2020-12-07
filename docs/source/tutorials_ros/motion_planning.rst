@@ -1,6 +1,6 @@
 .. _adv-motion-planning:
 
-Motion planning
+Motion Planning
 ===============
 
 In this section, we explain how to use `The Open Motion Planning Library (OMPL) <https://ompl.kavrakilab.org/>`_ with Flightmare for advanced motion planning.
@@ -123,7 +123,7 @@ If a solution has been found, we can optionally simplify it and the display it
    <br>
 
 
-State validity checking function
+State Validity Checking Function
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 A state validity function needs to be implemented. 
@@ -184,7 +184,7 @@ Here the helper function searchRadius.
   return true;
   }
 
-State space bounds
+State Space Bounds
 ^^^^^^^^^^^^^^^^^^
 
 .. code-block:: C++
@@ -204,7 +204,7 @@ State space bounds
 Follow the OMPL documentation example so that the solution can be computed.
 
 
-Generate Point Cloud and visualize solution path
+Generate Point Cloud and Visualize Solution Path
 ------------------------------------------------
 
 Create a Point Cloud
@@ -324,7 +324,7 @@ We populate the KD-Search Tree for more a more efficient State Validity checker 
   return verts;
   }
 
-Execute path
+Execute Path
 ^^^^^^^^^^^^
 
 In the plan function, we solve the path planning problem and can then get the found states of the solution path.
@@ -341,7 +341,7 @@ In our example, we just linearly interpolated between the states and followed th
 
 
 
-Run example
+Run Example
 -----------
 
 .. code-block:: bash
@@ -351,7 +351,7 @@ Run example
 
 .. highlight:: C++ 
 
-Here the full code example
+Here the full Code Example
 --------------------------
 
 .. raw:: html

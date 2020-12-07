@@ -71,7 +71,7 @@ Flightmare can be used for various applications, including path-planning, reinfo
     <br>
 
 
-The simulator
+The Simulator
 -------------
 Flightmare is an open-source simulator for quadrotors. 
 It is composed of two main components: 
@@ -86,7 +86,7 @@ Flightmare provides ROS wrapper to interface with popular ROS packages, such as 
 .. image:: ../_images/_getting_started/flightmare_structure.png
     :alt: Simulator structure
 
-Software components
+Software Components
 ^^^^^^^^^^^^^^^^^^^
 * `flightlib <https://github.com/uzh-rpg/flightmare/tree/master/flightlib>`_: Flightmare Library
 

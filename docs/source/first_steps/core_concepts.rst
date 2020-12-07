@@ -1,6 +1,6 @@
 .. _core-concepts:
 
-Core concepts
+Core Concepts
 =============
 
 This page introduces the main features and modules in Flightmare. 
@@ -38,7 +38,7 @@ They can be added by the client over the unity-bridge.
 
 
 
-:ref:`Environments and navigation <environments-navigation>`
+:ref:`Environments and Navigation <environments-navigation>`
 ------------------------------------------------------------
 
 The environment is the object representing the simulated world. 
@@ -57,7 +57,7 @@ Custom environments can be added (see :ref:`here <add-scene>`).
 For navigation we use the library: `rpg_quadrotor_control <https://github.com/uzh-rpg/rpg_quadrotor_control>`_.
 
 
-:ref:`Sensors and data <sensors-data>`
+:ref:`Sensors and Data <sensors-data>`
 --------------------------------------
 
 Sensors wait for rendering to happen, and then gather data from the simulation. 

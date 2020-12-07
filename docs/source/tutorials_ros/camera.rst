@@ -1,6 +1,6 @@
 .. _tut-camera:
 
-Retrieve simulation data
+Retrieve Simulation Data
 ========================
 
 .. note:: 
@@ -9,7 +9,7 @@ Retrieve simulation data
   You can also contribute by fixing this on the server- and client-side.
 
 
-Setup and spawn the camera
+Setup and Spawn the Camera
 --------------------------
 
 .. code-block:: C++
@@ -40,7 +40,7 @@ Setup and spawn the camera
   bool unity_ready_ = unity_bridge_ptr_->connectUnity(UnityScene::WAREHOUSE);
 
 
-Position camera
+Position Camera
 ---------------
 
 .. code-block:: C++
@@ -58,7 +58,7 @@ Position camera
   quad_ptr_->setState(quad_state_);
 
 
-Retrieve data
+Retrieve Data
 -------------
 
 .. code-block:: C++
@@ -74,7 +74,7 @@ Retrieve data
   cv::imwrite("some.jpg", img);
 
 
-[Optional] Publishing data
+[Optional] Publishing Data
 --------------------------
 
 .. code-block:: C++
@@ -95,7 +95,7 @@ Retrieve data
   rgb_pub_.publish(rgb_msg);
 
 
-Run example
+Run Example
 -----------
 
 .. code-block:: bash
@@ -105,18 +105,8 @@ Run example
 
 .. highlight:: C++ 
 
-Here the full code example
+Here the full Code Example
 --------------------------
-
-Header
-^^^^^^
-
-.. include:: camera.hpp
-  :code: C++
-
-
-Main
-^^^^
 
 .. include:: camera.cpp
   :code: C++

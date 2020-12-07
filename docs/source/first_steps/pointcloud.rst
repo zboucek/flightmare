@@ -6,7 +6,7 @@ Point Cloud
 Flightmare can extract the point cloud of a scene.
 This data can be used for path planning.
 
-Generate point cloud with flightlib
+Generate Point Cloud with flightlib
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The **unity_bridge** provides a function to save the point cloud.
@@ -48,7 +48,7 @@ The server generates the point cloud and saves it at the specified file path.
     - The saving name of the point cloud file in .ply format. Default "default"
 
 
-Generate point cloud manually
+Generate Point Cloud manually
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 One way to generate the point cloud is from the start menu. 

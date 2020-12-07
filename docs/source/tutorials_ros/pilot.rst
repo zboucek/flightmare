@@ -5,10 +5,10 @@ Pilot Tutorial
 
 Simulate the quadrotor with your dynamic model while using Flightmare to generate sensor data.
 
-Use Gazebo dynamics
+Use Gazebo Dynamics
 -------------------
 
-Listen to ROS topic and set state
+Listen to ROS Topic and Set State
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: C++
@@ -35,7 +35,7 @@ Listen to ROS topic and set state
   }
  
 
-Run example
+Run Example
 -----------
 
 .. code-block:: bash
@@ -45,7 +45,7 @@ Run example
 
 .. highlight:: C++ 
 
-Here the full code example
+Here the full Code Example
 --------------------------
 
 Header

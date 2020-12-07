@@ -1,9 +1,9 @@
 .. _environments-navigation:
 
-Environments and navigation
+Environments and Navigation
 ===========================
 
-Flightmare environments
+Flightmare Environments
 -----------------------
 
 The following environments are available in `UnityScene <https://github.com/uzh-rpg/flightmare/blob/master/flightlib/include/flightlib/bridges/unity_message_types.hpp>`_.
@@ -222,28 +222,16 @@ instead of using the specific ID.
 
 
 
-Navigating through waypoints
+Navigating through Waypoints
 ----------------------------
 
 .. include:: ../tutorials_ros/racing.rst
   :start-after: ============================
-  :end-before: Here the full code example
+  :end-before: Here the full Code Example
 
 
-Here the full code example
+Here the full Code Example
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-.. raw:: html
-
-   <details>
-   <summary>racing.hpp</summary>
-
-.. include:: ../tutorials_ros/racing.hpp
-  :code: C++
-
-.. raw:: html
-
-   </details>
 
 .. raw:: html
 

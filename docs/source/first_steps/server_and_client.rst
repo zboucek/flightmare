@@ -1,6 +1,6 @@
 .. _server-client:
 
-Server and client
+Server and Client
 =================
 
 
@@ -14,8 +14,8 @@ The client and the server are two of the fundamentals of Flightmare.
 
 This tutorial goes from defining the basics and creation of these elements, to describing their possibilities. 
 
-The client
-----------
+Client
+------
 
 The client is one of the main elements in the Flightmare architecture. 
 It connects to the server, retrieves information, and commands changes. 
@@ -26,7 +26,7 @@ These are useful for things such as spawning lots of actors.
 The rest of the features are more complex, and they will be addressed in their respective pages in :ref:`Advanced steps <advanced-concepts>`.
 
 
-Connect to server
+Connect to Server
 ^^^^^^^^^^^^^^^^^
 
 The server needs to be running.
@@ -67,7 +67,7 @@ Python:
 
 
 
-Add objects to the server
+Add Objects to the Server
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
 The client has different methods related to quadrotors and objects that allow for different functionalities.  
@@ -110,8 +110,8 @@ Python
   env.stepUnity(action, send_id)
 
 
-The server
-----------
+Server
+------
 
 The server is the rendering engine of the simulation. 
 It runs as the binary or as the top level scene in the Unity editor in play mode. 

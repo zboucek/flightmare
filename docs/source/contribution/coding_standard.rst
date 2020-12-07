@@ -65,7 +65,7 @@ Exceptions to the ROS and Google Styles
     <details>
     <summary>If you are using the vs-code formatter, adapt it accordingly.</summary>
 
-  .. code-block:: json
+  .. code-block::
 
     {
       "cmake.configureOnOpen": false,

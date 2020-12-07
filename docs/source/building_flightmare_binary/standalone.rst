@@ -1,8 +1,9 @@
 .. _standalone-build:
-Standalone build — Make the build in Unity
+
+Standalone Build — Make the Build in Unity
 ==========================================
 
-Install Unity and import project
+Install Unity and Import Project
 --------------------------------
 
 This is a Unity Project that built with Unity Editor Unity 2020.1.10, thus, it requires a Unity Editor installed. 
@@ -24,7 +25,7 @@ Prerequisites
   - Select **Linux Build Support** if you are using the Hub in a Windows or MacOS => DONE.
 
 
-Get the project
+Get the Project
 ^^^^^^^^^^^^^^^
 
 .. code-block:: bash
@@ -79,7 +80,7 @@ Click **Play** to build and run the program.
 The application creates two TCP sockets, one for publishing images and one for subscribing camera pose. 
 Clicking the **Start** button will start the program, but since we don't have a client running and sending messages to the server, you won't see any changes. 
 
-Adding objects to scene during runtime
+Adding Objects to Scene during runtime
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 On the Unity side, add a prefab of your object in the folder Assets/Resources/<prefab_id>. 
@@ -88,12 +89,12 @@ On the ROS side inherit from **static_object** in flightlib/objects. For referen
 
 .. _add-scene:
 
-Add a scene to the standalone
+Add a Scene to the Standalone
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Follow the step-by-step instructions to properly add your scene to Flightmare.
 
-Create or add a new scene
+Create or Add a new Scene
 """""""""""""""""""""""""
 
 First, you need a new scene. You can add your scenes or scenes from the asset store.
@@ -102,7 +103,7 @@ First, you need a new scene. You can add your scenes or scenes from the asset st
   :alt: Import a scene
   :align: center
 
-Move the scene into the folder Environments
+Move the Scene into the Folder Environments
 """""""""""""""""""""""""""""""""""""""""""
 
 To have a consistent project structure, we move all scenes into the environment folder.
@@ -114,7 +115,7 @@ Everything else is project-depended.
   :alt: Unity Project Overview
   :align: center
 
-Add the scene to the sceneSchedule
+Add the Scene to the sceneSchedule
 """"""""""""""""""""""""""""""""""
 
 Next, we add the scene to the sceneSchedule. 
@@ -129,7 +130,7 @@ We have to add the path to the scene to the scenes_list.
   :alt: Add function to load the scene
   :align: center
 
-Add the scene to build settings
+Add the Scene to Build Settings
 """""""""""""""""""""""""""""""
 
 The scene also needs to be added to the build settings. 
@@ -141,7 +142,7 @@ The index of the scene is important.
   :align: center
 
 
-(Optional) Add button on the start menu for your scene
+(Optional) Add Button on the Start Menu for your Scene
 """"""""""""""""""""""""""""""""""""""""""""""""""""""
 
 Optionally, we modify the splash screen by adding a button in the UI. 
@@ -164,7 +165,7 @@ We add the Load<Scene>() to the OnClick() function of the button.
   :align: center
 
 
-(Optional) Add a timeline for preview animation
+(Optional) Add a Timeline for preview Animation
 """"""""""""""""""""""""""""""""""""""""""""""""
 
 Optionally, we add a timeline to the scene. 
@@ -180,7 +181,7 @@ For the timeline, the following steps need to be done:
 * Add an animator to the HDCamera and select the camera by the GameObject with the timeline.
 
 
-Add the scene to flightlib
+Add the Scene to flightlib
 """"""""""""""""""""""""""
 
 To be able to launch the scene from the C++ client, you will need to add the scene to flightlib in the *flightlib/include/flightlib/bridges/unity_message_types.hpp*.

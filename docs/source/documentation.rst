@@ -9,20 +9,20 @@ In any case, here are a few suggestions for newcomers.
 
 * :ref:`Installing and getting started with Flightmare <quick-start>`
 
-Getting started
+Getting Started
 ---------------
 
 | :ref:`Introduction <introduction>` — What to expect from Flightmare.
 | :ref:`Quick Start <quick-start>` — Get the latest Flightmare releases.
 | :ref:`F.A.Q. <faq-install>` — Some of the most frequent installation issues.
 
-Building Flightmare binary
+Building Flightmare Binary
 --------------------------
 
 | :ref:`Standalone Build <standalone-build>` — Make the build in Unity.
 | :ref:`F.A.Q. <faq-binary>` — Some of the most frequent building issues.
 
-First steps
+First Steps
 -----------
 
 | :ref:`Core Concepts <core-concepts>`  — Overview of the basic concepts in Flightmare.
@@ -33,7 +33,7 @@ First steps
 | :ref:`Point Cloud <point-cloud>` - Retrieve the point cloud from the scene.
 | :ref:`F.A.Q. <faq-first-steps>` — Some of the most frequent usage issues.
 
-Advanced steps
+Advanced Steps
 --------------
 
 | :ref:`Advanced Concepts <advanced-concepts>` — Overview of all advanced steps

@@ -1,6 +1,6 @@
 .. _sensors-data:
 
-Sensors and data
+Sensors and Data
 ================
 
 Sensors retrieve data from their surroundings. 
@@ -28,7 +28,7 @@ It's assumed that a quadrotor has been initialized as explained on the page :ref
     - CV_8UC3
     - Provides clear vision of the surroundings. Looks like a normal photo of the scene.
   * - Depth
-    - CV_8UC3
+    - CV_32FC1
     - Renders the depth of the elements in the field of view in a gray-scale map.
   * - Segmentation
     - CV_8UC3
@@ -139,8 +139,6 @@ Collision
 ^^^^^^^^^
 
 Check if your quadrotor has had a collision in the last simulation step.
-
-.. error:: Not implemented yet
 
 .. code-block:: C++
 

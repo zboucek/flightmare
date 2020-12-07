@@ -1,6 +1,6 @@
 .. _quick-start:
 
-Quick start
+Quick Start
 ===========
 
 Prerequisites
@@ -37,7 +37,7 @@ Install with pip
 
 In this section, we assume that all the prerequisites are installed.
 
-Python environment
+Python Environment
 ^^^^^^^^^^^^^^^^^^
 
 It is a good idea to use virtual environments (virtualenvs) or `Anaconda <https://www.anaconda.com/>`_ to make sure packages from different projects do not interfere with each other. 
@@ -79,7 +79,7 @@ Add **FLIGHTMARE_PATH** environment variable to your `.bashrc` file:
    source ~/.bashrc
 
 
-Install dependencies
+Install Dependencies
 ^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: bash
@@ -135,7 +135,7 @@ Before continuing, make sure that your protobuf compiler version is 3.0.0.
 To check this out, type in a terminal ``protoc --version``.
 If This is not the case, then check out `this guide <https://github.com/linux-on-ibm-z/docs/wiki/Building-ProtoBuf-3.0.0>`_ on how to do it.
 
-Get catkin tools
+Get catkin Tools
 ^^^^^^^^^^^^^^^^^
 
 Get catkin tools with the following commands:
@@ -146,7 +146,7 @@ Get catkin tools with the following commands:
    sudo pip install catkin-tools
 
 
-Create a catkin workspace
+Create a catkin Workspace
 """""""""""""""""""""""""
 
 Create a catkin workspace with the following commands:

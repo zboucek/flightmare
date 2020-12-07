@@ -1,6 +1,6 @@
 .. _advanced-concepts:
 
-Advanced concepts
+Advanced Concepts
 =================
 
 In the section advanced steps, we will show how to use Flightmare in more advanced use-cases.

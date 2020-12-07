@@ -1,6 +1,6 @@
 .. _quad-objects:
 
-Quadrotors and objects
+Quadrotors and Objects
 ======================
 
 This page introduces all dynamically spawn-able actors within Flightmare.
