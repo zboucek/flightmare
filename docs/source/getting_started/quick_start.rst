@@ -252,9 +252,6 @@ In this example, we show how to use the `RotorS <https://github.com/ethz-asl/rot
 
 .. code-block:: bash
 
-   # The examples are by default not built.
-   catkin build flightros -DBUILD_SAMPLES:=ON
-
    # Now you can run any example.  
    roslaunch flightros rotors_gazebo.launch
 

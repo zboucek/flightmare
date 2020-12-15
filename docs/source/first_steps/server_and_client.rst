@@ -125,9 +125,52 @@ It receives messages from the client for the following components:
 
 * Simulation settings
 
-Debugging
----------
-                        
+Changing the ports
+^^^^^^^^^^^^^^^^^^
+
+The input and output ports (I, O) can be changed with the following launch arguments.
+
+.. code-block:: bash
+
+  ./RPG_Flightmare.x86_64 -input-port I -output-port O
+
+
+Running Flightmare on a VCN server
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. note:: 
+
+  In case multiple instances of Flightmare are running, be sure to use different ports!
+  See in the previous section how to launch Flightmare with different ports.  
+
+
+To run Flightmare on a remote server, you need to install `VirtualGL <https://wiki.archlinux.org/index.php/VirtualGL>`_.
+
+.. code-block:: text 
+
+      server:                                              client:
+  ······································               ·················
+  : ┌───────────┐ X11 commands         :               : ┌───────────┐ :
+  : │application│━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━▶│X server 2)│ :
+  : │           │        ┌───────────┐ :               : │           │ :
+  : │           │        │X server 1)│ :               : ├┈┈┈┈┈┈┈┈┈╮ │ :
+  : │ ╭┈┈┈┈┈┈┈┈┈┤ OpenGL │ ╭┈┈┈┈┈┈┈┈┈┤ : image stream  : │VirtualGL┊ │ :
+  : │ ┊VirtualGL│━━━━━━━▶│ ┊VirtualGL│━━━━━━━━━━━━━━━━━━▶│client   ┊ │ :
+  : └─┴─────────┘        └─┴─────────┘ :               : └─────────┴─┘ :
+  ······································               ·················
+
+After installing VirtualGL, the following steps need to be followed.
+
+.. code-block:: bash
+
+  # first two steps have to be executed only once
+  sudo X :0 & # start xorg on display 0
+  /opt/TurboVNC/bin/vncserver :1 #start vnc server
+
+  # now launch Flightmare  
+  DISPLAY=:1 vglrun -v -d :0.6 $unity_standalone # render on gpu 6
+
+
 
 That is a wrap on the server and client. 
 The next step takes a closer look into quadrotors and objects to give life to the simulation. 

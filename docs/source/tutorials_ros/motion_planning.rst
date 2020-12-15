@@ -346,6 +346,10 @@ Run Example
 
 .. code-block:: bash
 
+  # Motion Planning example is not build by default.
+  catkin build flightros -DBUILD_MP:=ON
+
+  # Now you can run:
   roslaunch flightros motion_planning.launch
 
 
