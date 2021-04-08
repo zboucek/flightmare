@@ -46,6 +46,9 @@ First, [Install Docker Engine on Ubuntu](https://docs.docker.com/engine/install/
    
    `docker run -it -v path_to_dodge_drone_challenge_folder:/root/challenge/ --rm --runtime=nvidia -e NVIDIA_VISIBLE_DEVICES=all  -p 10253:10253 -p 10254:10254 --name ddc-challenge uzhrpg/dodgedrone-challenge:base /bin/bash`
    
+   `docker run -it -v /home/zboucek/dodge_drone_challenge:/root/challenge/ --rm -e NVIDIA_VISIBLE_DEVICES=all  -p 10253:10253 -p 10254:10254 42010c7eca3d /bin/bash`
+
+   
    Breakdown of the command:
    
    * `-v path_to_dodge_drone_challenge_folder:/root/challenge/` mount the `path_to_dodge_drone_challenge_folder` on your local PC to `/root/challenge/` inside the container. Doing that you can use an IDE or text editor directly on the code inside dodge_drone_challenge/flightmare and the container will see the modified code. 
